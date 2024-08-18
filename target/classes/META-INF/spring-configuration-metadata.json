@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.book.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.ist_helper.config.PBDBConfig",
+      "sourceMethod": "dataSource()"
+    },
+    {
+      "name": "spring.user.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.ist_helper.config.STLDBConfig",
+      "sourceMethod": "dataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
